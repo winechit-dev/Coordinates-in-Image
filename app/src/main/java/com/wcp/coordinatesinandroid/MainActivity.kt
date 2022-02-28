@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
                 val iv = ImageView(applicationContext)
                 lp.width = 150
                 lp.height = 300
-                lp.setMargins(x, y, 0, 0) // set margins
+                lp.setMargins(x - 75, y - 270, 0, 0) // set margins
                 iv.layoutParams = lp
                 iv.setImageResource(R.drawable.ic_services_marker) // set the image from drawable
                 (view as ViewGroup).addView(iv) // add a View programmatically to the ViewGroup
